@@ -6,7 +6,7 @@ describe "User Stories" do
   # So that I can check if I want to order something
   # I would like to see a list of dishes with prices
   # it "allows a customer to see a list of dishes with prices" do
-  #   expect(takeaway.menu_klass).to respond_to(:list)
+  #   expect(takeaway.print_menu).to eq(printed_menu)
   # end
 
   # As a customer

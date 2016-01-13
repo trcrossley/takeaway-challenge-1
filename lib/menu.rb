@@ -12,6 +12,13 @@ class Menu
     end.join(", ")
   end
 
+  def available?(dish)
+    !dishes[dish].nil?
+    # checks if a dish is not nil
+    # !!dishes[dish].nil?   #alternative
+  end
+
+
   # def list
   #   menu_list
   # end
